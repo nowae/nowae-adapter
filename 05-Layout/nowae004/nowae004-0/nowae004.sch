@@ -46,10 +46,15 @@ U 1 1 589DB2EE
 P 8500 4000
 F 0 "DL?" H 8500 4100 50  0000 C CNN
 F 1 "GREEN" H 8500 3900 50  0000 C CNN
-F 2 "" H 8500 4000 60  0001 C CNN
+F 2 "0603" H 8500 4000 60  0001 C CNN
 F 3 "Green" H 8500 4000 60  0001 C CNN
+F 4 "Kingbright" H 4550 5950 60  0001 C CNN "Manufacturer"
+F 5 "KPT-1608SGC" H 4650 6050 60  0001 C CNN "Part Number"
+F 6 "Farnell Italia S.r.l." H 4750 6150 60  0001 C CNN "Distributor"
+F 7 "2099223" H 4850 6250 60  0001 C CNN "Distributor Code"
+F 8 "0.057" H 4950 6350 60  0001 C CNN "Price €"
 	1    8500 4000
-	-1   0    0    -1  
+	-1   0    0    -1
 $EndComp
 $Comp
 L YELLOW DL?
@@ -59,8 +64,13 @@ F 0 "DL?" H 8500 3800 50  0000 C CNN
 F 1 "YELLOW" H 8500 3600 50  0000 C CNN
 F 2 "" H 8500 3700 60  0001 C CNN
 F 3 "Yellow" H 8500 3700 60  0001 C CNN
+F 4 "Kingbright" H 4550 5950 60  0001 C CNN "Manufacturer"
+F 5 "KPT-1608YC" H 4650 6050 60  0001 C CNN "Part Number"
+F 6 "Farnell Italia S.r.l." H 4750 6150 60  0001 C CNN "Distributor"
+F 7 "2099227" H 4850 6250 60  0001 C CNN "Distributor Code"
+F 8 "0.048" H 4950 6350 60  0001 C CNN "Price €"
 	1    8500 3700
-	-1   0    0    -1  
+	-1   0    0    -1
 $EndComp
 $Comp
 L RESISTOR R?
@@ -68,10 +78,15 @@ U 1 1 589DBA27
 P 8000 4000
 F 0 "R?" V 8080 4000 50  0000 C CNN
 F 1 "270" V 8000 4000 50  0000 C CNN
-F 2 "" V 7930 4000 30  0001 C CNN
+F 2 "0402" V 7930 4000 30  0001 C CNN
 F 3 "" H 8000 4000 30  0001 C CNN
+F 4 "Multicomp" H 4550 5950 60  0001 C CNN "Manufacturer"
+F 5 "MC00625W04021270R" H 4650 6050 60  0001 C CNN "Part Number"
+F 6 "Farnell Italia S.r.l." H 4750 6150 60  0001 C CNN "Distributor"
+F 7 "1358026" H 4850 6250 60  0001 C CNN "Distributor Code"
+F 8 "0.001" H 4950 6350 60  0001 C CNN "Price €"
 	1    8000 4000
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 Wire Wire Line
 	8250 3700 8300 3700
@@ -95,11 +110,16 @@ L CAPACITOR C?
 U 1 1 589DBD48
 P 5850 4200
 F 0 "C?" H 5850 4300 50  0000 L CNN
-F 1 "100nF" H 5856 4115 50  0000 L CNN
-F 2 "" H 5888 4050 30  0000 C CNN
+F 1 "100n" H 5856 4115 50  0000 L CNN
+F 2 "0402" H 5888 4050 30  0001 C CNN
 F 3 "" H 5850 4200 60  0000 C CNN
+F 4 "Multicomp" H 4550 5950 60  0001 C CNN "Manufacturer"
+F 5 "MC0402B104K160CT" H 4650 6050 60  0001 C CNN "Part Number"
+F 6 "Farnell Italia S.r.l." H 4750 6150 60  0001 C CNN "Distributor"
+F 7 "1758896" H 4850 6250 60  0001 C CNN "Distributor Code"
+F 8 "0.005" H 4950 6350 60  0001 C CNN "Price €"
 	1    5850 4200
-	-1   0    0    -1  
+	-1   0    0    -1
 $EndComp
 Wire Wire Line
 	3900 4550 4000 4550
@@ -125,10 +145,15 @@ U 1 1 589DC009
 P 5350 3650
 F 0 "R?" V 5430 3650 50  0000 C CNN
 F 1 "27" V 5350 3650 50  0000 C CNN
-F 2 "" V 5280 3650 30  0001 C CNN
+F 2 "0402" V 5280 3650 30  0001 C CNN
 F 3 "" H 5350 3650 30  0001 C CNN
+F 4 "Multicomp" H 4550 5950 60  0001 C CNN "Manufacturer"
+F 5 "MC00625W0402127R" H 4650 6050 60  0001 C CNN "Part Number"
+F 6 "Farnell Italia S.r.l." H 4750 6150 60  0001 C CNN "Distributor"
+F 7 "1358000" H 4850 6250 60  0001 C CNN "Distributor Code"
+F 8 "0.013" H 4950 6350 60  0001 C CNN "Price €"
 	1    5350 3650
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L RESISTOR R?
@@ -136,32 +161,47 @@ U 1 1 589DC06A
 P 5350 3550
 F 0 "R?" V 5430 3550 50  0000 C CNN
 F 1 "27" V 5350 3550 50  0000 C CNN
-F 2 "" V 5280 3550 30  0001 C CNN
+F 2 "0402" V 5280 3550 30  0001 C CNN
 F 3 "" H 5350 3550 30  0001 C CNN
+F 4 "Multicomp" H 4550 5950 60  0001 C CNN "Manufacturer"
+F 5 "MC00625W0402127R" H 4650 6050 60  0001 C CNN "Part Number"
+F 6 "Farnell Italia S.r.l." H 4750 6150 60  0001 C CNN "Distributor"
+F 7 "1358000" H 4850 6250 60  0001 C CNN "Distributor Code"
+F 8 "0.013" H 4950 6350 60  0001 C CNN "Price €"
 	1    5350 3550
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L CAPACITOR C?
 U 1 1 589DC137
 P 5000 4050
 F 0 "C?" H 5000 4150 50  0000 L CNN
-F 1 "47pF" H 5006 3965 50  0000 L CNN
-F 2 "" H 5038 3900 30  0000 C CNN
+F 1 "33p" H 5006 3965 50  0000 L CNN
+F 2 "0402" H 5038 3900 30  0000 C CNN
 F 3 "" H 5000 4050 60  0000 C CNN
+F 4 "Multicomp" H 4550 5950 60  0001 C CNN "Manufacturer"
+F 5 "MC0402N330J500CT" H 4650 6050 60  0001 C CNN "Part Number"
+F 6 "Farnell Italia S.r.l." H 4750 6150 60  0001 C CNN "Distributor"
+F 7 "1758955" H 4850 6250 60  0001 C CNN "Distributor Code"
+F 8 "0.005" H 4950 6350 60  0001 C CNN "Price €"
 	1    5000 4050
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L CAPACITOR C?
 U 1 1 589DC176
 P 4750 4050
 F 0 "C?" H 4650 4150 50  0000 L CNN
-F 1 "47pF" H 4550 3950 50  0000 L CNN
-F 2 "" H 4788 3900 30  0000 C CNN
+F 1 "33p" H 4550 3950 50  0000 L CNN
+F 2 "0402" H 4788 3900 30  0000 C CNN
 F 3 "" H 4750 4050 60  0000 C CNN
+F 4 "Multicomp" H 4550 5950 60  0001 C CNN "Manufacturer"
+F 5 "MC0402N330J500CT" H 4650 6050 60  0001 C CNN "Part Number"
+F 6 "Farnell Italia S.r.l." H 4750 6150 60  0001 C CNN "Distributor"
+F 7 "1758955" H 4850 6250 60  0001 C CNN "Distributor Code"
+F 8 "0.005" H 4950 6350 60  0001 C CNN "Price €"
 	1    4750 4050
-	-1   0    0    -1  
+	-1   0    0    -1
 $EndComp
 Wire Wire Line
 	5000 3850 5000 3650
@@ -188,10 +228,15 @@ U 1 1 589DB816
 P 8000 3700
 F 0 "R?" V 8080 3700 50  0000 C CNN
 F 1 "270" V 8000 3700 50  0000 C CNN
-F 2 "" V 7930 3700 30  0001 C CNN
+F 2 "0402" V 7930 3700 30  0001 C CNN
 F 3 "" H 8000 3700 30  0001 C CNN
+F 4 "Multicomp" H 4550 5950 60  0001 C CNN "Manufacturer"
+F 5 "MC00625W04021270R" H 4650 6050 60  0001 C CNN "Part Number"
+F 6 "Farnell Italia S.r.l." H 4750 6150 60  0001 C CNN "Distributor"
+F 7 "1358026" H 4850 6250 60  0001 C CNN "Distributor Code"
+F 8 "0.001" H 4950 6350 60  0001 C CNN "Price €"
 	1    8000 3700
-	0    1    -1   0   
+	0    1    -1   0
 $EndComp
 Wire Wire Line
 	7600 3700 7750 3700
@@ -234,7 +279,7 @@ F 1 "EN_SERIAL" H 7950 3200 39  0000 C CNN
 F 2 "" H 7950 3350 60  0000 C CNN
 F 3 "" H 7950 3350 60  0000 C CNN
 	1    7950 3350
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L SMALL_JUMPER J?
@@ -245,7 +290,7 @@ F 1 "EN_SERIAL" H 7950 3250 39  0000 C CNN
 F 2 "" H 7950 3150 60  0000 C CNN
 F 3 "" H 7950 3150 60  0000 C CNN
 	1    7950 3150
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	7600 3200 7600 3150
@@ -287,7 +332,7 @@ F 1 "GND" H 6700 4650 30  0001 C CNN
 F 2 "" H 6700 4650 60  0000 C CNN
 F 3 "" H 6700 4650 60  0000 C CNN
 	1    6700 4650
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 NoConn ~ 7400 3700
 NoConn ~ 7400 4000
@@ -315,7 +360,7 @@ F 6 "Farnell Italia S.r.l." H 11300 4050 60  0001 C CNN "Distributor"
 F 7 "2191861" H 11400 4150 60  0001 C CNN "Distributor Code"
 F 8 "13.490" H 11500 4250 60  0001 C CNN "Price €"
 	1    11000 5500
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	11800 7000 12050 7000
@@ -338,7 +383,7 @@ F 1 "GND" H 9950 4600 30  0001 C CNN
 F 2 "" H 9950 4600 60  0000 C CNN
 F 3 "" H 9950 4600 60  0000 C CNN
 	1    9950 4600
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L GND #PWR?
@@ -349,7 +394,7 @@ F 1 "GND" H 9950 4800 30  0001 C CNN
 F 2 "" H 9950 4800 60  0000 C CNN
 F 3 "" H 9950 4800 60  0000 C CNN
 	1    9950 4800
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 Wire Wire Line
 	10200 4200 9950 4200
@@ -366,7 +411,7 @@ F 1 "+3.3V" H 9950 3900 30  0000 C CNN
 F 2 "" H 9950 3800 60  0000 C CNN
 F 3 "" H 9950 3800 60  0000 C CNN
 	1    9950 3800
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L +3.3V #PWR?
@@ -377,7 +422,7 @@ F 1 "+3.3V" H 9950 4300 30  0000 C CNN
 F 2 "" H 9950 4200 60  0000 C CNN
 F 3 "" H 9950 4200 60  0000 C CNN
 	1    9950 4200
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L +5V #PWR?
@@ -388,7 +433,7 @@ F 1 "+5V" H 9950 4500 30  0000 C CNN
 F 2 "" H 9950 4400 60  0000 C CNN
 F 3 "" H 9950 4400 60  0000 C CNN
 	1    9950 4400
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L MICROUSB-629105150521 P?
@@ -404,7 +449,7 @@ F 6 "Farnell Italia S.r.l." H 4350 4250 60  0001 C CNN "Distributor"
 F 7 "2470822" H 4450 4350 60  0001 C CNN "Distributor Code"
 F 8 "1.750" H 4550 4450 60  0001 C CNN "Price €"
 	1    4050 3650
-	-1   0    0    -1  
+	-1   0    0    -1
 $EndComp
 Wire Wire Line
 	4600 3850 4450 3850
@@ -434,7 +479,7 @@ F 6 "Farnell Italia S.r.l." H 6250 5400 60  0001 C CNN "Distributor"
 F 7 "2492471" H 6250 5300 60  0001 C CNN "Distributor Code"
 F 8 "2.490" H 6250 5200 60  0001 C CNN "Price €"
 	1    6250 6200
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L CONN_2X1 P?
@@ -443,9 +488,14 @@ P 3950 5800
 F 0 "P?" H 3950 5950 60  0000 C CNN
 F 1 "SUPPLY IN" H 3950 5600 60  0000 C CNN
 F 2 "" H 4325 5800 60  0000 C CNN
-F 3 "" H 4325 5800 60  0000 C CNN
+F 3 "3.81mm, 2 Vie, 300V and 10A MAX " H 4325 5800 60  0000 C CNN
+F 4 "Multicomp" H 4550 5950 60  0001 C CNN "Manufacturer"
+F 5 "MC000018" H 4650 6050 60  0001 C CNN "Part Number"
+F 6 "Farnell Italia S.r.l." H 4750 6150 60  0001 C CNN "Distributor"
+F 7 "2007985" H 4850 6250 60  0001 C CNN "Distributor Code"
+F 8 "0.791" H 4950 6350 60  0001 C CNN "Price €"
 	1    3950 5800
-	-1   0    0    -1  
+	-1   0    0    -1
 $EndComp
 Wire Wire Line
 	4650 5750 4750 5750
@@ -508,7 +558,7 @@ F 6 "Farnell Italia S.r.l." H 11300 4050 60  0001 C CNN "Distributor"
 F 7 "2112857" H 11400 4150 60  0001 C CNN "Distributor Code"
 F 8 "0.163" H 11500 4250 60  0001 C CNN "Price €"
 	1    4750 6300
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	4750 6100 4750 5750
@@ -530,7 +580,7 @@ F 6 "Farnell Italia S.r.l." H 11300 4050 60  0001 C CNN "Distributor"
 F 7 "2563995" H 11400 4150 60  0001 C CNN "Distributor Code"
 F 8 "0.703" H 11500 4250 60  0001 C CNN "Price €"
 	1    5100 6650
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	5100 6450 5100 6350
@@ -574,7 +624,7 @@ F 6 "Farnell Italia S.r.l." H 11300 4050 60  0001 C CNN "Distributor"
 F 7 "1907515" H 11400 4150 60  0001 C CNN "Distributor Code"
 F 8 "0.362" H 11500 4250 60  0001 C CNN "Price €"
 	1    7900 6300
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	7900 6950 7900 6500
@@ -593,7 +643,7 @@ F 6 "Farnell Italia S.r.l." H 11300 4050 60  0001 C CNN "Distributor"
 F 7 "2563995" H 11400 4150 60  0001 C CNN "Distributor Code"
 F 8 "0.703" H 11500 4250 60  0001 C CNN "Price €"
 	1    7200 5750
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 Wire Wire Line
 	6750 5750 7000 5750
@@ -630,10 +680,15 @@ U 1 1 58AEE920
 P 7150 6200
 F 0 "R?" V 7230 6200 50  0000 C CNN
 F 1 "100k" V 7150 6200 50  0000 C CNN
-F 2 "" V 7080 6200 30  0001 C CNN
+F 2 "0402" V 7080 6200 30  0001 C CNN
 F 3 "" H 7150 6200 30  0001 C CNN
+F 4 "Multicomp" H 4550 5950 60  0001 C CNN "Manufacturer"
+F 5 "MC00625W04021100K" H 4650 6050 60  0001 C CNN "Part Number"
+F 6 "Farnell Italia S.r.l." H 4750 6150 60  0001 C CNN "Distributor"
+F 7 "1358096" H 4850 6250 60  0001 C CNN "Distributor Code"
+F 8 "0.001" H 4950 6350 60  0001 C CNN "Price €"
 	1    7150 6200
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 Wire Wire Line
 	6900 6200 6750 6200
@@ -656,7 +711,7 @@ F 1 "GND" H 6250 7050 30  0001 C CNN
 F 2 "" H 6250 7050 60  0000 C CNN
 F 3 "" H 6250 7050 60  0000 C CNN
 	1    6250 7050
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text Notes 7500 5650 0    60   ~ 0
 +5V@1A
@@ -670,11 +725,16 @@ L RESISTOR R?
 U 1 1 58AEFD7A
 P 8250 6100
 F 0 "R?" V 8330 6100 50  0000 C CNN
-F 1 "690" V 8250 6100 50  0000 C CNN
-F 2 "" V 8180 6100 30  0001 C CNN
+F 1 "680" V 8250 6100 50  0000 C CNN
+F 2 "0402" V 8180 6100 30  0001 C CNN
 F 3 "" H 8250 6100 30  0001 C CNN
+F 4 "Multicomp" H 4550 5950 60  0001 C CNN "Manufacturer"
+F 5 "MC00625W04021680R" H 4650 6050 60  0001 C CNN "Part Number"
+F 6 "Farnell Italia S.r.l." H 4750 6150 60  0001 C CNN "Distributor"
+F 7 "1358038" H 4850 6250 60  0001 C CNN "Distributor Code"
+F 8 "0.013" H 4950 6350 60  0001 C CNN "Price €"
 	1    8250 6100
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 Wire Wire Line
 	8250 5750 8250 5850
@@ -686,8 +746,13 @@ F 0 "DL?" H 8250 6750 50  0000 C CNN
 F 1 "GREEN" H 8250 6550 50  0000 C CNN
 F 2 "" H 8250 6650 60  0001 C CNN
 F 3 "Green" H 8250 6650 60  0001 C CNN
+F 4 "Kingbright" H 4550 5950 60  0001 C CNN "Manufacturer"
+F 5 "KPT-1608SGC" H 4650 6050 60  0001 C CNN "Part Number"
+F 6 "Farnell Italia S.r.l." H 4750 6150 60  0001 C CNN "Distributor"
+F 7 "2099223" H 4850 6250 60  0001 C CNN "Distributor Code"
+F 8 "0.057" H 4950 6350 60  0001 C CNN "Price €"
 	1    8250 6650
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 Wire Wire Line
 	8250 6950 8250 6850
@@ -708,7 +773,7 @@ F 6 "Farnell Italia S.r.l." H 7000 4550 60  0001 C CNN "Distributor"
 F 7 "2081321" H 7000 4650 60  0001 C CNN "Distributor Code"
 F 8 "2.110" H 7550 4250 60  0001 C CNN "Price €"
 	1    6650 3600
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	4650 3200 5900 3200
@@ -718,10 +783,15 @@ U 1 1 58B03137
 P 5900 7900
 F 0 "R?" V 5980 7900 50  0000 C CNN
 F 1 "270" V 5900 7900 50  0000 C CNN
-F 2 "" V 5830 7900 30  0001 C CNN
+F 2 "0402" V 5830 7900 30  0001 C CNN
 F 3 "" H 5900 7900 30  0001 C CNN
+F 4 "Multicomp" H 4550 5950 60  0001 C CNN "Manufacturer"
+F 5 "MC00625W04021270R" H 4650 6050 60  0001 C CNN "Part Number"
+F 6 "Farnell Italia S.r.l." H 4750 6150 60  0001 C CNN "Distributor"
+F 7 "1358026" H 4850 6250 60  0001 C CNN "Distributor Code"
+F 8 "0.001" H 4950 6350 60  0001 C CNN "Price €"
 	1    5900 7900
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 Wire Wire Line
 	6150 7600 6200 7600
@@ -733,10 +803,15 @@ U 1 1 58B03144
 P 5900 7600
 F 0 "R?" V 5980 7600 50  0000 C CNN
 F 1 "270" V 5900 7600 50  0000 C CNN
-F 2 "" V 5830 7600 30  0001 C CNN
+F 2 "0402" V 5830 7600 30  0001 C CNN
 F 3 "" H 5900 7600 30  0001 C CNN
+F 4 "Multicomp" H 4550 5950 60  0001 C CNN "Manufacturer"
+F 5 "MC00625W04021270R" H 4650 6050 60  0001 C CNN "Part Number"
+F 6 "Farnell Italia S.r.l." H 4750 6150 60  0001 C CNN "Distributor"
+F 7 "1358026" H 4850 6250 60  0001 C CNN "Distributor Code"
+F 8 "0.001" H 4950 6350 60  0001 C CNN "Price €"
 	1    5900 7600
-	0    1    -1   0   
+	0    1    -1   0
 $EndComp
 Wire Wire Line
 	5500 7600 5650 7600
@@ -748,10 +823,15 @@ U 1 1 58B03399
 P 6400 7600
 F 0 "DL?" H 6400 7700 50  0000 C CNN
 F 1 "RED" H 6400 7500 50  0000 C CNN
-F 2 "" H 6400 7600 60  0001 C CNN
+F 2 "0603" H 6400 7600 60  0001 C CNN
 F 3 "Red" H 6400 7600 60  0001 C CNN
+F 4 "Kingbright" H 4550 5950 60  0001 C CNN "Manufacturer"
+F 5 "KPT-1608EC" H 4650 6050 60  0001 C CNN "Part Number"
+F 6 "Farnell Italia S.r.l." H 4750 6150 60  0001 C CNN "Distributor"
+F 7 "2099221" H 4850 6250 60  0001 C CNN "Distributor Code"
+F 8 "0.064" H 4950 6350 60  0001 C CNN "Price €"
 	1    6400 7600
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L RED DL?
@@ -759,10 +839,15 @@ U 1 1 58B03403
 P 6400 7900
 F 0 "DL?" H 6400 8000 50  0000 C CNN
 F 1 "RED" H 6400 7800 50  0000 C CNN
-F 2 "" H 6400 7900 60  0001 C CNN
+F 2 "0603" H 6400 7900 60  0001 C CNN
 F 3 "Red" H 6400 7900 60  0001 C CNN
+F 4 "Kingbright" H 4550 5950 60  0001 C CNN "Manufacturer"
+F 5 "KPT-1608EC" H 4650 6050 60  0001 C CNN "Part Number"
+F 6 "Farnell Italia S.r.l." H 4750 6150 60  0001 C CNN "Distributor"
+F 7 "2099221" H 4850 6250 60  0001 C CNN "Distributor Code"
+F 8 "0.064" H 4950 6350 60  0001 C CNN "Price €"
 	1    6400 7900
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	5500 7600 5500 7750
@@ -780,7 +865,7 @@ F 1 "+3.3V" H 5350 7850 30  0000 C CNN
 F 2 "" H 5350 7750 60  0000 C CNN
 F 3 "" H 5350 7750 60  0000 C CNN
 	1    5350 7750
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 Wire Wire Line
 	6600 7600 6750 7600
@@ -797,7 +882,7 @@ F 1 "LED1" H 7000 7500 60  0000 C CNN
 F 2 "" H 7375 7600 60  0000 C CNN
 F 3 "" H 7375 7600 60  0000 C CNN
 	1    7000 7600
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L CONN_1X1 P?
@@ -805,10 +890,10 @@ U 1 1 58B041D9
 P 7000 7900
 F 0 "P?" H 7000 8000 60  0000 C CNN
 F 1 "LED2" H 7000 7800 60  0000 C CNN
-F 2 "" H 7375 7900 60  0000 C CNN
+F 2 "" H 7000 7700 60  0001 C CNN
 F 3 "" H 7375 7900 60  0000 C CNN
 	1    7000 7900
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L RS1M D?
@@ -824,7 +909,7 @@ F 6 "Farnell Italia S.r.l." H 4750 6150 60  0001 C CNN "Distributor"
 F 7 "2454086" H 4850 6250 60  0001 C CNN "Distributor Code"
 F 8 "0.262" H 4950 6350 60  0001 C CNN "Price €"
 	1    4450 5750
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	4250 5750 4200 5750
