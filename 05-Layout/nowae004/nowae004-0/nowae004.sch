@@ -33,13 +33,13 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title "Matrix Board Adapter for NXP Freedom Board"
-Date "DRAFT"
-Rev "0-D"
+Date "2017-05-28"
+Rev "0"
 Comp ""
 Comment1 "Marco Giammarini"
 Comment2 "Nicola Orlandini"
 Comment3 "Nicola Orlandini"
-Comment4 "2017-03-06"
+Comment4 "2017-05-28"
 $EndDescr
 $Comp
 L GREEN DL5
