@@ -24,5 +24,5 @@
   (lib (name SWITCH)(type KiCad)(uri ${KINOWAEMOD}/SWITCH.pretty)(options "")(descr ""))
   (lib (name TRACOPOWER)(type KiCad)(uri ${KINOWAEMOD}/TRACOPOWER.pretty)(options "")(descr ""))
   (lib (name WIFI)(type KiCad)(uri ${KINOWAEMOD}/WIFI.pretty)(options "")(descr ""))
-  (lib (name w_conn_misc)(type KiCad)(uri /Users/warcomeb/Projects/kicad_libs/modules/w_conn_misc.pretty)(options "")(descr ""))
+  (lib (name LOGO)(type KiCad)(uri ${KINOWAEMOD}/LOGO.pretty)(options "")(descr ""))
 )
