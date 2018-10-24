@@ -1,8 +1,8 @@
-(kicad_pcb (version 20171130) (host pcbnew "(5.0.0-3-g5ebb6b6)")
+(kicad_pcb (version 20171130) (host pcbnew 5.0.0-fee4fd1~66~ubuntu18.04.1)
 
   (general
     (thickness 1.6)
-    (drawings 23)
+    (drawings 22)
     (tracks 133)
     (zones 0)
     (modules 8)
@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 0.3)
+    (last_trace_width 0.2)
     (user_trace_width 0.3)
     (user_trace_width 0.4)
     (user_trace_width 0.5)
@@ -70,7 +70,7 @@
       (usegerberattributes false)
       (usegerberadvancedattributes false)
       (creategerberjobfile false)
-      (excludeedgelayer true)
+      (excludeedgelayer false)
       (linewidth 0.100000)
       (plotframeref false)
       (viasonmask false)
@@ -88,9 +88,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory "gerber"))
   )
 
   (net 0 "")
@@ -1696,7 +1696,6 @@
     (arrow2a (pts (xy 119 70) (xy 120.126504 70.586421)))
     (arrow2b (pts (xy 119 70) (xy 120.126504 69.413579)))
   )
-  (target plus (at 119 104) (size 5) (width 0.15) (layer Edge.Cuts))
   (gr_arc (start 121 102) (end 119 102) (angle -90) (layer Edge.Cuts) (width 0.2))
   (gr_arc (start 172 102) (end 172 104) (angle -90) (layer Edge.Cuts) (width 0.2))
   (gr_arc (start 172 76) (end 174 76) (angle -90) (layer Edge.Cuts) (width 0.2))

@@ -6,12 +6,12 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "U-Multilink Adapter"
-Date "2018-10-23"
-Rev "0-D"
+Date "2018-10-24"
+Rev "0"
 Comp ""
-Comment1 "M.Giammarini"
-Comment2 "N.Orlandini"
-Comment3 "N.Orlandini"
+Comment1 "M. Giammarini"
+Comment2 "N. Orlandini"
+Comment3 "N. Orlandini"
 Comment4 ""
 $EndDescr
 $Comp
