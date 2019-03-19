@@ -1,0 +1,743 @@
+EESchema Schematic File Version 4
+LIBS:nowae025-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "BGM111 Topping Board"
+Date ""
+Rev "0-D"
+Comp ""
+Comment1 "M.Giammarini"
+Comment2 "N.Orlandini"
+Comment3 "N.Orlandini"
+Comment4 ""
+$EndDescr
+$Comp
+L nowae-wireless:BGM111A256V2 U?
+U 1 1 5C8D8183
+P 8400 3400
+F 0 "U?" H 8400 4387 60  0000 C CNN
+F 1 "BGM111A256V2" H 8400 4281 60  0000 C CNN
+F 2 "WIFI:BLE-BGM111A256V2" H 8400 3800 60  0001 C CNN
+F 3 "BLE 4.2, 2.4GHz, W/ Antenna" H 8400 2300 60  0001 C CNN
+F 4 "Silicon Laboratories" H 8400 2200 60  0001 C CNN "Manufacturer"
+F 5 "BGM111A256V2R" H 8400 2100 60  0001 C CNN "Part Number"
+F 6 "Digi-Key Electronics" H 8400 2000 60  0001 C CNN "Distributor"
+F 7 "336-3949-1-ND" H 8400 1900 60  0001 C CNN "Distributor Code"
+F 8 "9.060" H 8400 1800 60  0001 C CNN "Price €"
+	1    8400 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L nowae-connector:CONN_8X1 P?
+U 1 1 5C8D8342
+P 3100 2400
+F 0 "P?" H 3177 2458 60  0000 L CNN
+F 1 "CONN_8X1" H 3177 2352 60  0000 L CNN
+F 2 "" H 3475 2400 60  0001 C CNN
+F 3 "" H 3475 2400 60  0001 C CNN
+F 4 "-" H 3100 2050 60  0001 C CNN "Manufacturer"
+F 5 "-" H 3100 1950 60  0001 C CNN "Part Number"
+F 6 "-" H 3100 1850 60  0001 C CNN "Distributor"
+F 7 "-" H 3100 1750 60  0001 C CNN "Distributor Code"
+F 8 "-" H 3100 1650 60  0001 C CNN "Price €"
+F 9 "-" H 3100 1550 60  0001 C CNN "Distributor2"
+F 10 "-" H 3100 1450 60  0001 C CNN "Distributor2 Code"
+F 11 "-" H 3100 1350 60  0001 C CNN "Distributor3"
+F 12 "-" H 3100 1250 60  0001 C CNN "Distributor3 Code"
+	1    3100 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L nowae-connector:CONN_6X1 P?
+U 1 1 5C8D849D
+P 4850 2300
+F 0 "P?" H 4927 2358 60  0000 L CNN
+F 1 "CONN_6X1" H 4927 2252 60  0000 L CNN
+F 2 "" H 5225 2300 60  0001 C CNN
+F 3 "" H 5225 2300 60  0001 C CNN
+F 4 "-" H 4850 1950 60  0001 C CNN "Manufacturer"
+F 5 "-" H 4850 1850 60  0001 C CNN "Part Number"
+F 6 "-" H 4850 1750 60  0001 C CNN "Distributor"
+F 7 "-" H 4850 1650 60  0001 C CNN "Distributor Code"
+F 8 "-" H 4850 1550 60  0001 C CNN "Price €"
+F 9 "-" H 4850 1450 60  0001 C CNN "Distributor2"
+F 10 "-" H 4850 1350 60  0001 C CNN "Distributor2 Code"
+F 11 "-" H 4850 1250 60  0001 C CNN "Distributor3"
+F 12 "-" H 4850 1150 60  0001 C CNN "Distributor3 Code"
+	1    4850 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 2050 2250 2050
+Wire Wire Line
+	2250 2150 2850 2150
+Wire Wire Line
+	2250 2250 2850 2250
+Wire Wire Line
+	2250 2350 2850 2350
+Wire Wire Line
+	2250 2450 2850 2450
+Wire Wire Line
+	2350 2550 2850 2550
+Wire Wire Line
+	2250 2650 2350 2650
+Wire Wire Line
+	4600 2050 4000 2050
+Text Label 4000 2050 0    50   ~ 0
+ARDUINO_A0
+Wire Wire Line
+	4000 2150 4600 2150
+Wire Wire Line
+	4000 2250 4600 2250
+Wire Wire Line
+	4000 2350 4600 2350
+Wire Wire Line
+	4000 2450 4600 2450
+Wire Wire Line
+	4000 2550 4600 2550
+Text Label 4000 2150 0    50   ~ 0
+ARDUINO_A1
+Text Label 4000 2250 0    50   ~ 0
+ARDUINO_A2
+Text Label 4000 2350 0    50   ~ 0
+ARDUINO_A3
+Text Label 4000 2450 0    50   ~ 0
+ARDUINO_A4
+Text Label 4000 2550 0    50   ~ 0
+ARDUINO_A5
+NoConn ~ 2850 2750
+Text Label 2250 2050 0    50   ~ 0
+ARDUINO_NC
+Text Label 2250 2150 0    50   ~ 0
+ARDUINO_IOREF
+Text Label 2250 2250 0    50   ~ 0
+ARDUINO_RESET
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5C8D8DE9
+P 2250 2350
+F 0 "#PWR?" H 2250 2275 30  0001 C CNN
+F 1 "+3.3V" V 2250 2453 30  0000 L CNN
+F 2 "" H 2250 2350 60  0000 C CNN
+F 3 "" H 2250 2350 60  0000 C CNN
+	1    2250 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5C8D9645
+P 2250 2450
+F 0 "#PWR?" H 2250 2375 30  0001 C CNN
+F 1 "+5V" V 2250 2557 30  0000 L CNN
+F 2 "" H 2250 2450 60  0000 C CNN
+F 3 "" H 2250 2450 60  0000 C CNN
+	1    2250 2450
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C8D9796
+P 2250 2650
+F 0 "#PWR?" H 2250 2650 30  0001 C CNN
+F 1 "GND" H 2250 2650 30  0001 C CNN
+F 2 "" H 2250 2650 60  0000 C CNN
+F 3 "" H 2250 2650 60  0000 C CNN
+	1    2250 2650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2350 2550 2350 2650
+Connection ~ 2350 2650
+Wire Wire Line
+	2350 2650 2850 2650
+$Comp
+L nowae-connector:CONN_8X1 P?
+U 1 1 5C8D99CA
+P 4100 3700
+F 0 "P?" H 3994 4297 60  0000 C CNN
+F 1 "CONN_8X1" H 3994 4191 60  0000 C CNN
+F 2 "" H 4475 3700 60  0001 C CNN
+F 3 "" H 4475 3700 60  0001 C CNN
+F 4 "-" H 4100 3350 60  0001 C CNN "Manufacturer"
+F 5 "-" H 4100 3250 60  0001 C CNN "Part Number"
+F 6 "-" H 4100 3150 60  0001 C CNN "Distributor"
+F 7 "-" H 4100 3050 60  0001 C CNN "Distributor Code"
+F 8 "-" H 4100 2950 60  0001 C CNN "Price €"
+F 9 "-" H 4100 2850 60  0001 C CNN "Distributor2"
+F 10 "-" H 4100 2750 60  0001 C CNN "Distributor2 Code"
+F 11 "-" H 4100 2650 60  0001 C CNN "Distributor3"
+F 12 "-" H 4100 2550 60  0001 C CNN "Distributor3 Code"
+	1    4100 3700
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 3350 4350 3350
+Text Label 4950 3350 2    50   ~ 0
+ARDUINO_D0
+Wire Wire Line
+	4350 3450 4950 3450
+Wire Wire Line
+	4350 3550 4950 3550
+Wire Wire Line
+	4350 3650 4950 3650
+Wire Wire Line
+	4350 3750 4950 3750
+Wire Wire Line
+	4350 3850 4950 3850
+Text Label 4950 3450 2    50   ~ 0
+ARDUINO_D1
+Text Label 4950 3550 2    50   ~ 0
+ARDUINO_D2
+Text Label 4950 3650 2    50   ~ 0
+ARDUINO_D3
+Text Label 4950 3750 2    50   ~ 0
+ARDUINO_D4
+Text Label 4950 3850 2    50   ~ 0
+ARDUINO_D5
+Text Label 4950 3950 2    50   ~ 0
+ARDUINO_D6
+Text Label 4950 4050 2    50   ~ 0
+ARDUINO_D7
+Wire Wire Line
+	4350 3950 4950 3950
+Wire Wire Line
+	4950 4050 4350 4050
+$Comp
+L nowae-connector:CONN_10X1 P?
+U 1 1 5C8DA388
+P 2300 3800
+F 0 "P?" H 2194 4497 60  0000 C CNN
+F 1 "CONN_10X1" H 2194 4391 60  0000 C CNN
+F 2 "" H 2675 3800 60  0001 C CNN
+F 3 "" H 2675 3800 60  0001 C CNN
+F 4 "-" H 2300 3450 60  0001 C CNN "Manufacturer"
+F 5 "-" H 2300 3350 60  0001 C CNN "Part Number"
+F 6 "-" H 2300 3250 60  0001 C CNN "Distributor"
+F 7 "-" H 2300 3150 60  0001 C CNN "Distributor Code"
+F 8 "-" H 2300 3050 60  0001 C CNN "Price €"
+F 9 "-" H 2300 2950 60  0001 C CNN "Distributor2"
+F 10 "-" H 2300 2850 60  0001 C CNN "Distributor2 Code"
+F 11 "-" H 2300 2750 60  0001 C CNN "Distributor3"
+F 12 "-" H 2300 2650 60  0001 C CNN "Distributor3 Code"
+	1    2300 3800
+	-1   0    0    -1  
+$EndComp
+Text Label 3150 3350 2    50   ~ 0
+ARDUINO_D8
+Wire Wire Line
+	3150 3350 2550 3350
+Text Label 3150 3450 2    50   ~ 0
+ARDUINO_D9
+Text Label 3150 3550 2    50   ~ 0
+ARDUINO_D10
+Text Label 3150 3650 2    50   ~ 0
+ARDUINO_D11
+Text Label 3150 3750 2    50   ~ 0
+ARDUINO_D12
+Text Label 3150 3850 2    50   ~ 0
+ARDUINO_D13
+Wire Wire Line
+	2550 3450 3150 3450
+Wire Wire Line
+	3150 3550 2550 3550
+Wire Wire Line
+	2550 3650 3150 3650
+Wire Wire Line
+	2550 3750 3150 3750
+Wire Wire Line
+	3150 3850 2550 3850
+Wire Wire Line
+	2550 3950 3150 3950
+$Comp
+L power:GND #PWR?
+U 1 1 5C8DCAAE
+P 3150 3950
+F 0 "#PWR?" H 3150 3950 30  0001 C CNN
+F 1 "GND" H 3150 3950 30  0001 C CNN
+F 2 "" H 3150 3950 60  0000 C CNN
+F 3 "" H 3150 3950 60  0000 C CNN
+	1    3150 3950
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 2550 4050
+Wire Wire Line
+	2550 4150 3150 4150
+Wire Wire Line
+	2550 4250 3150 4250
+Text Label 3150 4150 2    50   ~ 0
+ARDUINO_D14
+Text Label 3150 4250 2    50   ~ 0
+ARDUINO_D15
+Text Notes 2950 1600 0    100  ~ 0
+Arduino Connector
+Text Notes 3100 4750 0    100  ~ 0
+Supply Check
+$Comp
+L nowae-misc:JUMPER-2 J?
+U 1 1 5C8DF068
+P 3650 5050
+F 0 "J?" H 3650 5154 39  0000 C CNN
+F 1 "JUMPER-2" H 3650 5150 39  0001 C CNN
+F 2 "" H 3550 5050 60  0001 C CNN
+F 3 "" H 3650 5150 60  0001 C CNN
+	1    3650 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L nowae-misc:JUMPER-2 J?
+U 1 1 5C8DF10C
+P 3650 5400
+F 0 "J?" H 3650 5504 39  0000 C CNN
+F 1 "JUMPER-2" H 3650 5500 39  0001 C CNN
+F 2 "" H 3550 5400 60  0001 C CNN
+F 3 "" H 3650 5500 60  0001 C CNN
+	1    3650 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 5050 3550 5050
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5C8DF197
+P 3250 5050
+F 0 "#PWR?" H 3250 4975 30  0001 C CNN
+F 1 "+3.3V" V 3250 5153 30  0000 L CNN
+F 2 "" H 3250 5050 60  0000 C CNN
+F 3 "" H 3250 5050 60  0000 C CNN
+	1    3250 5050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3250 5400 3550 5400
+$Comp
+L power:GND #PWR?
+U 1 1 5C8DF94C
+P 3250 5400
+F 0 "#PWR?" H 3250 5400 30  0001 C CNN
+F 1 "GND" H 3250 5400 30  0001 C CNN
+F 2 "" H 3250 5400 60  0000 C CNN
+F 3 "" H 3250 5400 60  0000 C CNN
+	1    3250 5400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3750 5050 4050 5050
+Wire Wire Line
+	3750 5400 4050 5400
+$Comp
+L power:GND1 #PWR?
+U 1 1 5C8E2479
+P 4050 5400
+F 0 "#PWR?" H 4050 5400 30  0001 C CNN
+F 1 "GND1" H 4050 5400 30  0001 C CNN
+F 2 "" H 4050 5400 60  0000 C CNN
+F 3 "" H 4050 5400 60  0000 C CNN
+	1    4050 5400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+VDD #PWR?
+U 1 1 5C8E3AD2
+P 4050 5050
+F 0 "#PWR?" H 4050 4975 30  0001 C CNN
+F 1 "+VDD" V 4050 5152 30  0000 L CNN
+F 2 "" H 4050 5050 60  0000 C CNN
+F 3 "" H 4050 5050 60  0000 C CNN
+	1    4050 5050
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND1 #PWR?
+U 1 1 5C92AD20
+P 9150 4550
+F 0 "#PWR?" H 9150 4550 30  0001 C CNN
+F 1 "GND1" H 9150 4550 30  0001 C CNN
+F 2 "" H 9150 4550 60  0000 C CNN
+F 3 "" H 9150 4550 60  0000 C CNN
+	1    9150 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9150 4550 9150 3850
+Wire Wire Line
+	9150 3850 9050 3850
+Wire Wire Line
+	9150 3850 9150 2750
+Wire Wire Line
+	9150 2750 9050 2750
+Connection ~ 9150 3850
+Wire Wire Line
+	7750 2750 7650 2750
+Wire Wire Line
+	7650 2750 7650 3850
+Wire Wire Line
+	7650 3850 7750 3850
+Connection ~ 7650 3850
+Wire Wire Line
+	7650 3850 7650 4550
+$Comp
+L power:GND1 #PWR?
+U 1 1 5C92D6D2
+P 7650 4550
+F 0 "#PWR?" H 7650 4550 30  0001 C CNN
+F 1 "GND1" H 7650 4550 30  0001 C CNN
+F 2 "" H 7650 4550 60  0000 C CNN
+F 3 "" H 7650 4550 60  0000 C CNN
+	1    7650 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9050 2850 9700 2850
+Text Label 9700 2850 2    50   ~ 0
+BLE_RESET
+Wire Wire Line
+	9050 2950 9350 2950
+Text Label 7100 3150 0    50   ~ 0
+BLE_TX
+Text Label 7100 3250 0    50   ~ 0
+BLE_RX
+$Comp
+L nowae-misc:JUMPER-2 J?
+U 1 1 5C933E53
+P 6700 2750
+F 0 "J?" H 6850 2800 39  0000 C CNN
+F 1 "JUMPER-2" H 6700 2850 39  0001 C CNN
+F 2 "" H 6600 2750 60  0001 C CNN
+F 3 "" H 6700 2850 60  0001 C CNN
+	1    6700 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L nowae-misc:JUMPER-2 J?
+U 1 1 5C933EE9
+P 6700 2850
+F 0 "J?" H 6850 2900 39  0000 C CNN
+F 1 "JUMPER-2" H 6700 2950 39  0001 C CNN
+F 2 "" H 6600 2850 60  0001 C CNN
+F 3 "" H 6700 2950 60  0001 C CNN
+	1    6700 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L nowae-misc:JUMPER-2 J?
+U 1 1 5C933F0F
+P 6700 2950
+F 0 "J?" H 6850 3000 39  0000 C CNN
+F 1 "JUMPER-2" H 6700 3050 39  0001 C CNN
+F 2 "" H 6600 2950 60  0001 C CNN
+F 3 "" H 6700 3050 60  0001 C CNN
+	1    6700 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 2750 7050 2750
+Wire Wire Line
+	7050 2750 7050 2850
+Wire Wire Line
+	7050 2950 7050 3050
+Wire Wire Line
+	6800 2850 7050 2850
+Connection ~ 7050 2850
+Wire Wire Line
+	7050 2850 7050 2950
+Wire Wire Line
+	6800 2950 7050 2950
+Connection ~ 7050 2950
+Text Label 5950 2750 0    50   ~ 0
+ARDUINO_D0
+Wire Wire Line
+	5950 2750 6600 2750
+Wire Wire Line
+	5950 2850 6600 2850
+Text Label 5950 2850 0    50   ~ 0
+ARDUINO_D14
+$Comp
+L nowae-misc:JUMPER-2 J?
+U 1 1 5C939F2D
+P 6700 3450
+F 0 "J?" H 6850 3500 39  0000 C CNN
+F 1 "JUMPER-2" H 6700 3550 39  0001 C CNN
+F 2 "" H 6600 3450 60  0001 C CNN
+F 3 "" H 6700 3550 60  0001 C CNN
+	1    6700 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L nowae-misc:JUMPER-2 J?
+U 1 1 5C939F33
+P 6700 3550
+F 0 "J?" H 6850 3600 39  0000 C CNN
+F 1 "JUMPER-2" H 6700 3650 39  0001 C CNN
+F 2 "" H 6600 3550 60  0001 C CNN
+F 3 "" H 6700 3650 60  0001 C CNN
+	1    6700 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L nowae-misc:JUMPER-2 J?
+U 1 1 5C939F39
+P 6700 3650
+F 0 "J?" H 6850 3700 39  0000 C CNN
+F 1 "JUMPER-2" H 6700 3750 39  0001 C CNN
+F 2 "" H 6600 3650 60  0001 C CNN
+F 3 "" H 6700 3750 60  0001 C CNN
+	1    6700 3650
+	1    0    0    -1  
+$EndComp
+Text Label 5950 3350 0    50   ~ 0
+ARDUINO_D1
+Wire Wire Line
+	5950 3350 6600 3350
+Wire Wire Line
+	5950 3450 6600 3450
+Text Label 5950 3450 0    50   ~ 0
+ARDUINO_D15
+Wire Wire Line
+	6800 3450 7050 3450
+Wire Wire Line
+	7050 3550 6800 3550
+Wire Wire Line
+	7050 3250 7750 3250
+Wire Wire Line
+	6800 3650 7050 3650
+$Comp
+L nowae-capacitor:CAPACITOR C?
+U 1 1 5C9400EE
+P 9350 3250
+F 0 "C?" H 9465 3296 50  0000 L CNN
+F 1 "4u7" H 9465 3205 50  0000 L CNN
+F 2 "" H 9388 3100 30  0001 C CNN
+F 3 "" H 9350 3350 60  0001 C CNN
+F 4 "-" H 9350 2900 60  0001 C CNN "Manufacturer"
+F 5 "-" H 9350 2800 60  0001 C CNN "Part Number"
+F 6 "-" H 9350 2700 60  0001 C CNN "Distributor"
+F 7 "-" H 9350 2600 60  0001 C CNN "Distributor Code"
+F 8 "-" H 9350 2500 60  0001 C CNN "Price €"
+F 9 "-" H 9350 2400 60  0001 C CNN "Distributor2"
+F 10 "-" H 9350 2300 60  0001 C CNN "Distributor2 Code"
+F 11 "-" H 9350 2200 60  0001 C CNN "Distributor3"
+F 12 "-" H 9350 2100 60  0001 C CNN "Distributor3 Code"
+	1    9350 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L nowae-capacitor:CAPACITOR C?
+U 1 1 5C940195
+P 9750 3250
+F 0 "C?" H 9865 3296 50  0000 L CNN
+F 1 "100n" H 9865 3205 50  0000 L CNN
+F 2 "" H 9788 3100 30  0001 C CNN
+F 3 "" H 9750 3350 60  0001 C CNN
+F 4 "-" H 9750 2900 60  0001 C CNN "Manufacturer"
+F 5 "-" H 9750 2800 60  0001 C CNN "Part Number"
+F 6 "-" H 9750 2700 60  0001 C CNN "Distributor"
+F 7 "-" H 9750 2600 60  0001 C CNN "Distributor Code"
+F 8 "-" H 9750 2500 60  0001 C CNN "Price €"
+F 9 "-" H 9750 2400 60  0001 C CNN "Distributor2"
+F 10 "-" H 9750 2300 60  0001 C CNN "Distributor2 Code"
+F 11 "-" H 9750 2200 60  0001 C CNN "Distributor3"
+F 12 "-" H 9750 2100 60  0001 C CNN "Distributor3 Code"
+	1    9750 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9900 2850 9900 2950
+Wire Wire Line
+	9350 3050 9350 2950
+Connection ~ 9350 2950
+Wire Wire Line
+	9750 3050 9750 2950
+Wire Wire Line
+	9350 2950 9750 2950
+Connection ~ 9750 2950
+Wire Wire Line
+	9750 2950 9900 2950
+Wire Wire Line
+	9150 3850 9350 3850
+Wire Wire Line
+	9350 3850 9350 3450
+Wire Wire Line
+	9350 3850 9750 3850
+Wire Wire Line
+	9750 3850 9750 3450
+Connection ~ 9350 3850
+$Comp
+L power:+VDD #PWR?
+U 1 1 5C948481
+P 9900 2850
+F 0 "#PWR?" H 9900 2775 30  0001 C CNN
+F 1 "+VDD" H 9900 2983 30  0000 C CNN
+F 2 "" H 9900 2850 60  0000 C CNN
+F 3 "" H 9900 2850 60  0000 C CNN
+	1    9900 2850
+	1    0    0    -1  
+$EndComp
+Text Label 5950 3050 0    50   ~ 0
+ARDUINO_A4
+Wire Wire Line
+	5950 3050 6600 3050
+Wire Notes Line
+	1050 6050 3600 6050
+Text Notes 1700 6000 0    50   ~ 10
+NUCLEO-L073
+Text Notes 1100 6200 0    50   ~ 10
+ARDUINO-A0
+Wire Notes Line
+	1050 6250 3600 6250
+Wire Notes Line
+	1050 6450 3600 6450
+Wire Notes Line
+	1050 6650 3600 6650
+Wire Notes Line
+	1050 6850 3600 6850
+Text Notes 1100 6400 0    50   ~ 10
+ARDUINO-A1
+Text Notes 1100 6600 0    50   ~ 10
+ARDUINO-D0
+Text Notes 1100 6800 0    50   ~ 10
+ARDUINO-D1
+Text Notes 1100 7000 0    50   ~ 10
+ARDUINO-D14
+Text Notes 1100 7200 0    50   ~ 10
+ARDUINO-D15
+Wire Notes Line
+	1050 7250 3600 7250
+Wire Notes Line
+	1050 7050 3600 7050
+Wire Notes Line
+	1050 5850 3600 5850
+Text Notes 1750 6200 0    50   ~ 0
+UART4-TX
+Text Notes 1750 6400 0    50   ~ 0
+UART4-RX
+Text Notes 1100 7400 0    50   ~ 10
+ARDUINO-A4
+Wire Notes Line
+	1050 7450 3600 7450
+Wire Notes Line
+	1050 7650 3600 7650
+Text Notes 1100 7600 0    50   ~ 10
+ARDUINO-A5
+Text Notes 1750 7400 0    50   ~ 0
+UART1-TX
+Text Notes 1750 7600 0    50   ~ 0
+UART1-RX
+Wire Notes Line
+	1650 5850 1650 7650
+Wire Notes Line
+	2300 5850 2300 7650
+Text Notes 2350 6000 0    50   ~ 10
+NUCLEO-L476
+Wire Notes Line
+	2950 5850 2950 7650
+Text Notes 3000 6000 0    50   ~ 10
+FRDM-KL25
+Wire Notes Line
+	3600 5850 3600 7650
+Text Notes 3000 7000 0    50   ~ 0
+UART1-TX
+Text Notes 3000 7200 0    50   ~ 0
+UART1-RX
+Text Notes 3000 6600 0    50   ~ 0
+UART0-TX
+Text Notes 3000 6800 0    50   ~ 0
+UART0-RX
+Wire Notes Line
+	1050 5850 1050 7650
+Text Notes 2350 6200 0    50   ~ 0
+UART4-TX
+Text Notes 2350 6400 0    50   ~ 0
+UART4-RX
+Text Notes 2350 7400 0    50   ~ 0
+UART1-TX
+Text Notes 2350 7600 0    50   ~ 0
+UART1-RX
+Text Notes 2350 6600 0    50   ~ 0
+UART2-TX
+Text Notes 2350 6800 0    50   ~ 0
+UART2-RX
+Text Notes 1750 6800 0    50   ~ 0
+UART2-RX
+Text Notes 1750 6600 0    50   ~ 0
+UART2-TX
+Wire Wire Line
+	7050 3150 7750 3150
+Wire Wire Line
+	7050 3050 6800 3050
+Connection ~ 7050 3050
+Wire Wire Line
+	7050 3050 7050 3150
+$Comp
+L nowae-misc:JUMPER-2 J?
+U 1 1 5C982DCC
+P 6700 3050
+F 0 "J?" H 6850 3100 39  0000 C CNN
+F 1 "JUMPER-2" H 6700 3150 39  0001 C CNN
+F 2 "" H 6600 3050 60  0001 C CNN
+F 3 "" H 6700 3150 60  0001 C CNN
+	1    6700 3050
+	1    0    0    -1  
+$EndComp
+Text Label 5950 2950 0    50   ~ 0
+ARDUINO_A0
+Wire Wire Line
+	5950 2950 6600 2950
+Wire Wire Line
+	7050 3250 7050 3350
+Wire Wire Line
+	7050 3350 6800 3350
+Connection ~ 7050 3350
+Wire Wire Line
+	7050 3350 7050 3450
+Text Label 5950 3650 0    50   ~ 0
+ARDUINO_A5
+Wire Wire Line
+	5950 3650 6600 3650
+Text Label 5950 3550 0    50   ~ 0
+ARDUINO_A1
+Wire Wire Line
+	5950 3550 6600 3550
+$Comp
+L nowae-misc:JUMPER-2 J?
+U 1 1 5C98D9AC
+P 6700 3350
+F 0 "J?" H 6850 3400 39  0000 C CNN
+F 1 "JUMPER-2" H 6700 3450 39  0001 C CNN
+F 2 "" H 6600 3350 60  0001 C CNN
+F 3 "" H 6700 3450 60  0001 C CNN
+	1    6700 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 3450 7050 3550
+Connection ~ 7050 3450
+Connection ~ 7050 3550
+Wire Wire Line
+	7050 3550 7050 3650
+NoConn ~ 7750 2850
+NoConn ~ 7750 2950
+NoConn ~ 7750 3050
+NoConn ~ 7750 3350
+NoConn ~ 7750 3450
+NoConn ~ 7750 3550
+NoConn ~ 7750 3650
+NoConn ~ 7750 3750
+NoConn ~ 8100 4400
+NoConn ~ 8200 4400
+NoConn ~ 8300 4400
+NoConn ~ 8400 4400
+NoConn ~ 8500 4400
+NoConn ~ 8600 4400
+NoConn ~ 8700 4400
+NoConn ~ 9050 3750
+NoConn ~ 9050 3650
+NoConn ~ 9050 3550
+NoConn ~ 9050 3450
+NoConn ~ 9050 3350
+NoConn ~ 9050 3250
+NoConn ~ 9050 3150
+NoConn ~ 9050 3050
+$EndSCHEMATC
