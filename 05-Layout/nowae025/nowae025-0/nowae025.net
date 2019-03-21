@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\My\PCB\NOWAE025\05-Layout\nowae025\nowae025-0\nowae025.sch)
-    (date "20/03/2019 08:53:55")
+    (date "21/03/2019 13:59:26")
     (tool "Eeschema (5.0.2)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -30,6 +30,7 @@
       (tstamp 5C8D8183))
     (comp (ref P2)
       (value ARD_LEFT2)
+      (footprint CONNECTOR:SOCKET_8x1_2.54_WE-61300811821)
       (fields
         (field (name Distributor) -)
         (field (name "Distributor Code") -)
@@ -45,6 +46,7 @@
       (tstamp 5C8D8342))
     (comp (ref P4)
       (value ARD_LEFT1)
+      (footprint CONNECTOR:SOCKET_6x1_2.54_WE-61300611821)
       (fields
         (field (name Distributor) -)
         (field (name "Distributor Code") -)
@@ -60,6 +62,7 @@
       (tstamp 5C8D849D))
     (comp (ref P3)
       (value ARD_RIGHT1)
+      (footprint CONNECTOR:SOCKET_8x1_2.54_WE-61300811821)
       (fields
         (field (name Distributor) -)
         (field (name "Distributor Code") -)
@@ -75,6 +78,7 @@
       (tstamp 5C8D99CA))
     (comp (ref P1)
       (value ARD_RIGHT2)
+      (footprint CONNECTOR:SOCKET_10x1_2.54_WE-61301011821)
       (fields
         (field (name Distributor) -)
         (field (name "Distributor Code") -)
