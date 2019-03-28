@@ -1,0 +1,237 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "BGM111 Breakout Board"
+Date ""
+Rev "0-D"
+Comp ""
+Comment1 "M.Giammarini"
+Comment2 "N.Orlandini"
+Comment3 "N.Orlandini"
+Comment4 ""
+$EndDescr
+Text Notes 5050 4700 0    100  ~ 0
+Supply Check
+$Comp
+L nowae-misc:JUMPER-2 J1
+U 1 1 5C8DF068
+P 5600 5000
+F 0 "J1" H 5600 5104 39  0000 C CNN
+F 1 "JUMPER-2" H 5600 5100 39  0001 C CNN
+F 2 "CONNECTOR:CONN-STRIP-2x1-2.54" H 5500 5000 60  0001 C CNN
+F 3 "" H 5600 5100 60  0001 C CNN
+	1    5600 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L nowae-misc:JUMPER-2 J2
+U 1 1 5C8DF10C
+P 5600 5350
+F 0 "J2" H 5600 5454 39  0000 C CNN
+F 1 "JUMPER-2" H 5600 5450 39  0001 C CNN
+F 2 "CONNECTOR:CONN-STRIP-2x1-2.54" H 5500 5350 60  0001 C CNN
+F 3 "" H 5600 5450 60  0001 C CNN
+	1    5600 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 5000 5500 5000
+$Comp
+L power:+3.3V #PWR05
+U 1 1 5C8DF197
+P 5200 5000
+F 0 "#PWR05" H 5200 4925 30  0001 C CNN
+F 1 "+3.3V" V 5200 5103 30  0000 L CNN
+F 2 "" H 5200 5000 60  0000 C CNN
+F 3 "" H 5200 5000 60  0000 C CNN
+	1    5200 5000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5200 5350 5500 5350
+$Comp
+L power:GND #PWR06
+U 1 1 5C8DF94C
+P 5200 5350
+F 0 "#PWR06" H 5200 5350 30  0001 C CNN
+F 1 "GND" H 5200 5350 30  0001 C CNN
+F 2 "" H 5200 5350 60  0000 C CNN
+F 3 "" H 5200 5350 60  0000 C CNN
+	1    5200 5350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5700 5000 6000 5000
+Wire Wire Line
+	5700 5350 6000 5350
+$Comp
+L power:GND1 #PWR08
+U 1 1 5C8E2479
+P 6000 5350
+F 0 "#PWR08" H 6000 5350 30  0001 C CNN
+F 1 "GND1" H 6000 5350 30  0001 C CNN
+F 2 "" H 6000 5350 60  0000 C CNN
+F 3 "" H 6000 5350 60  0000 C CNN
+	1    6000 5350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+VDD #PWR07
+U 1 1 5C8E3AD2
+P 6000 5000
+F 0 "#PWR07" H 6000 4925 30  0001 C CNN
+F 1 "+VDD" V 6000 5102 30  0000 L CNN
+F 2 "" H 6000 5000 60  0000 C CNN
+F 3 "" H 6000 5000 60  0000 C CNN
+	1    6000 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND1 #PWR010
+U 1 1 5C92AD20
+P 6400 4050
+F 0 "#PWR010" H 6400 4050 30  0001 C CNN
+F 1 "GND1" H 6400 4050 30  0001 C CNN
+F 2 "" H 6400 4050 60  0000 C CNN
+F 3 "" H 6400 4050 60  0000 C CNN
+	1    6400 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 4050 6400 3350
+Wire Wire Line
+	6400 3350 6300 3350
+Wire Wire Line
+	6400 3350 6400 2250
+Wire Wire Line
+	6400 2250 6300 2250
+Connection ~ 6400 3350
+Wire Wire Line
+	5000 2250 4900 2250
+Wire Wire Line
+	4900 2250 4900 3350
+Wire Wire Line
+	4900 3350 5000 3350
+Connection ~ 4900 3350
+Wire Wire Line
+	4900 3350 4900 4050
+$Comp
+L power:GND1 #PWR09
+U 1 1 5C92D6D2
+P 4900 4050
+F 0 "#PWR09" H 4900 4050 30  0001 C CNN
+F 1 "GND1" H 4900 4050 30  0001 C CNN
+F 2 "" H 4900 4050 60  0000 C CNN
+F 3 "" H 4900 4050 60  0000 C CNN
+	1    4900 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 2350 7000 2350
+Text Label 6950 2350 2    50   ~ 0
+BLE_RESET
+Wire Wire Line
+	6300 2450 6650 2450
+Text Label 4350 2650 0    50   ~ 0
+BLE_TX
+Text Label 4350 2750 0    50   ~ 0
+BLE_RX
+$Comp
+L nowae-capacitor:CAPACITOR C1
+U 1 1 5C9400EE
+P 6650 2750
+F 0 "C1" H 6765 2796 50  0000 L CNN
+F 1 "4u7" H 6765 2705 50  0000 L CNN
+F 2 "CAPACITOR:CAPACITOR-1206" H 6688 2600 30  0001 C CNN
+F 3 "" H 6650 2850 60  0001 C CNN
+F 4 "-" H 6650 2400 60  0001 C CNN "Manufacturer"
+F 5 "-" H 6650 2300 60  0001 C CNN "Part Number"
+F 6 "-" H 6650 2200 60  0001 C CNN "Distributor"
+F 7 "-" H 6650 2100 60  0001 C CNN "Distributor Code"
+F 8 "-" H 6650 2000 60  0001 C CNN "Price €"
+F 9 "-" H 6650 1900 60  0001 C CNN "Distributor2"
+F 10 "-" H 6650 1800 60  0001 C CNN "Distributor2 Code"
+F 11 "-" H 6650 1700 60  0001 C CNN "Distributor3"
+F 12 "-" H 6650 1600 60  0001 C CNN "Distributor3 Code"
+	1    6650 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L nowae-capacitor:CAPACITOR C2
+U 1 1 5C940195
+P 7050 2750
+F 0 "C2" H 7165 2796 50  0000 L CNN
+F 1 "100n" H 7165 2705 50  0000 L CNN
+F 2 "CAPACITOR:CAPACITOR-1206" H 7088 2600 30  0001 C CNN
+F 3 "" H 7050 2850 60  0001 C CNN
+F 4 "-" H 7050 2400 60  0001 C CNN "Manufacturer"
+F 5 "-" H 7050 2300 60  0001 C CNN "Part Number"
+F 6 "-" H 7050 2200 60  0001 C CNN "Distributor"
+F 7 "-" H 7050 2100 60  0001 C CNN "Distributor Code"
+F 8 "-" H 7050 2000 60  0001 C CNN "Price €"
+F 9 "-" H 7050 1900 60  0001 C CNN "Distributor2"
+F 10 "-" H 7050 1800 60  0001 C CNN "Distributor2 Code"
+F 11 "-" H 7050 1700 60  0001 C CNN "Distributor3"
+F 12 "-" H 7050 1600 60  0001 C CNN "Distributor3 Code"
+	1    7050 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 2550 6650 2450
+Connection ~ 6650 2450
+Wire Wire Line
+	7050 2550 7050 2450
+Wire Wire Line
+	6650 2450 7050 2450
+Connection ~ 7050 2450
+Wire Wire Line
+	7050 2450 7100 2450
+Wire Wire Line
+	6400 3350 6650 3350
+Wire Wire Line
+	6650 3350 6650 2950
+Wire Wire Line
+	6650 3350 7050 3350
+Wire Wire Line
+	7050 3350 7050 2950
+Connection ~ 6650 3350
+$Comp
+L power:+VDD #PWR011
+U 1 1 5C948481
+P 7100 2450
+F 0 "#PWR011" H 7100 2375 30  0001 C CNN
+F 1 "+VDD" V 7100 2600 30  0000 C CNN
+F 2 "" H 7100 2450 60  0000 C CNN
+F 3 "" H 7100 2450 60  0000 C CNN
+	1    7100 2450
+	0    1    1    0   
+$EndComp
+$Comp
+L nowae-wireless:BGM111A256V21 U?
+U 1 1 5C9DB88F
+P 5650 2900
+F 0 "U?" H 5650 3887 60  0000 C CNN
+F 1 "BGM111A256V21" H 5650 3781 60  0000 C CNN
+F 2 "WIFI:BLE-BGM111A256V2" H 5650 3300 60  0001 C CNN
+F 3 "BLE 4.2, 2.4GHz, W/ Antenna and Firmware" H 5650 1800 60  0001 C CNN
+F 4 "Silicon Laboratories" H 5650 1700 60  0001 C CNN "Manufacturer"
+F 5 "BGM111A256V21" H 5650 1600 60  0001 C CNN "Part Number"
+F 6 "Digi-Key Electronics" H 5650 1500 60  0001 C CNN "Distributor"
+F 7 "BGM111A256V21-ND" H 5650 1400 60  0001 C CNN "Distributor Code"
+F 8 "8.080" H 5650 1300 60  0001 C CNN "Price €"
+F 9 "Farnell Italia S.r.l." H 5650 1200 50  0001 C CNN "Distributor2"
+F 10 "2930662" H 5650 1100 50  0001 C CNN "Distributor2 Code"
+	1    5650 2900
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5350 3900
+NoConn ~ 5450 3900
+NoConn ~ 5550 3900
+NoConn ~ 5650 3900
+NoConn ~ 5750 3900
+NoConn ~ 5850 3900
+NoConn ~ 5950 3900
+$EndSCHEMATC
