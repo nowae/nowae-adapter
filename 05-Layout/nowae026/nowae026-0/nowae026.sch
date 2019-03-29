@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:nowae026-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -14,7 +15,7 @@ Comment3 "N.Orlandini"
 Comment4 ""
 $EndDescr
 Text Notes 5050 4700 0    100  ~ 0
-Supply Check
+Power Check
 $Comp
 L nowae-misc:JUMPER-2 J1
 U 1 1 5C8DF068
@@ -131,13 +132,13 @@ F 3 "" H 4900 4050 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	6300 2350 7000 2350
-Text Label 6950 2350 2    50   ~ 0
+Text Label 7000 2350 2    50   ~ 0
 BLE_RESET
 Wire Wire Line
 	6300 2450 6650 2450
-Text Label 4350 2650 0    50   ~ 0
+Text Label 4250 2650 0    50   ~ 0
 BLE_TX
-Text Label 4350 2750 0    50   ~ 0
+Text Label 4250 2750 0    50   ~ 0
 BLE_RX
 $Comp
 L nowae-capacitor:CAPACITOR C1
@@ -210,10 +211,10 @@ F 3 "" H 7100 2450 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L nowae-wireless:BGM111A256V21 U?
+L nowae-wireless:BGM111A256V21 U1
 U 1 1 5C9DB88F
 P 5650 2900
-F 0 "U?" H 5650 3887 60  0000 C CNN
+F 0 "U1" H 5650 3887 60  0000 C CNN
 F 1 "BGM111A256V21" H 5650 3781 60  0000 C CNN
 F 2 "WIFI:BLE-BGM111A256V2" H 5650 3300 60  0001 C CNN
 F 3 "BLE 4.2, 2.4GHz, W/ Antenna and Firmware" H 5650 1800 60  0001 C CNN
@@ -234,4 +235,82 @@ NoConn ~ 5650 3900
 NoConn ~ 5750 3900
 NoConn ~ 5850 3900
 NoConn ~ 5950 3900
+Text Label 4250 2850 0    50   ~ 0
+BLE_CTS
+Text Label 4250 2950 0    50   ~ 0
+BLE_RTS
+$Comp
+L nowae-connector:CONN_7X1 P1
+U 1 1 5C9DE111
+P 3800 2750
+F 0 "P1" H 3800 3150 60  0000 C CNN
+F 1 "CONN" H 3800 2350 60  0000 C CNN
+F 2 "CONNECTOR:CONN-HOLE_7x1_2.54" H 4175 2750 60  0001 C CNN
+F 3 "" H 4175 2750 60  0001 C CNN
+F 4 "-" H 3800 2400 60  0001 C CNN "Manufacturer"
+F 5 "-" H 3800 2300 60  0001 C CNN "Part Number"
+F 6 "-" H 3800 2200 60  0001 C CNN "Distributor"
+F 7 "-" H 3800 2100 60  0001 C CNN "Distributor Code"
+F 8 "-" H 3800 2000 60  0001 C CNN "Price €"
+F 9 "-" H 3800 1900 60  0001 C CNN "Distributor2"
+F 10 "-" H 3800 1800 60  0001 C CNN "Distributor2 Code"
+F 11 "-" H 3800 1700 60  0001 C CNN "Distributor3"
+F 12 "-" H 3800 1600 60  0001 C CNN "Distributor3 Code"
+	1    3800 2750
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 2650 5000 2650
+Wire Wire Line
+	4050 2750 5000 2750
+Wire Wire Line
+	4050 2850 5000 2850
+Wire Wire Line
+	4050 2950 5000 2950
+Wire Wire Line
+	4050 3050 4650 3050
+Text Label 4650 3050 2    50   ~ 0
+BLE_RESET
+Wire Wire Line
+	4050 2550 4150 2550
+Wire Wire Line
+	4050 2450 4150 2450
+Wire Wire Line
+	4150 2450 4150 2400
+NoConn ~ 6300 2550
+NoConn ~ 6300 2650
+NoConn ~ 6300 2750
+NoConn ~ 6300 2850
+NoConn ~ 6300 2950
+NoConn ~ 6300 3050
+NoConn ~ 6300 3150
+NoConn ~ 6300 3250
+NoConn ~ 5000 2350
+NoConn ~ 5000 2450
+NoConn ~ 5000 2550
+NoConn ~ 5000 3050
+NoConn ~ 5000 3150
+NoConn ~ 5000 3300
+$Comp
+L power:GND #PWR?
+U 1 1 5C9E602B
+P 4150 2550
+F 0 "#PWR?" H 4150 2550 30  0001 C CNN
+F 1 "GND" H 4150 2550 30  0001 C CNN
+F 2 "" H 4150 2550 60  0000 C CNN
+F 3 "" H 4150 2550 60  0000 C CNN
+	1    4150 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5C9E604E
+P 4150 2400
+F 0 "#PWR?" H 4150 2325 30  0001 C CNN
+F 1 "+3.3V" H 4150 2500 30  0000 C CNN
+F 2 "" H 4150 2400 60  0000 C CNN
+F 3 "" H 4150 2400 60  0000 C CNN
+	1    4150 2400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
