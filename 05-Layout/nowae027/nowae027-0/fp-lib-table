@@ -23,6 +23,7 @@
   (lib (name CRYSTAL)(type KiCad)(uri ${KINOWAEMOD}/CRYSTAL.pretty)(options "")(descr ""))
   (lib (name DFN)(type KiCad)(uri ${KINOWAEMOD}/DFN.pretty)(options "")(descr ""))
   (lib (name DIODE)(type KiCad)(uri ${KINOWAEMOD}/DIODE.pretty)(options "")(descr ""))
+  (lib (name DISPLAY)(type KiCad)(uri ${KINOWAEMOD}/DISPLAY.pretty)(options "")(descr ""))
   (lib (name DIP)(type KiCad)(uri ${KINOWAEMOD}/DIP.pretty)(options "")(descr ""))
   (lib (name FUSE)(type KiCad)(uri ${KINOWAEMOD}/FUSE.pretty)(options "")(descr ""))
   (lib (name GPS)(type KiCad)(uri ${KINOWAEMOD}/GPS.pretty)(options "")(descr ""))
