@@ -1,0 +1,379 @@
+EESchema Schematic File Version 4
+LIBS:nowae028-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "AMW037 WiFi Module Breakout Board"
+Date ""
+Rev "0-D"
+Comp ""
+Comment1 "M.Giammarini"
+Comment2 "N.Orlandini"
+Comment3 "N.Orlandini"
+Comment4 ""
+$EndDescr
+Text Notes 5050 5000 0    100  ~ 0
+Power Check
+$Comp
+L nowae-misc:JUMPER-2 J1
+U 1 1 5C8DF068
+P 5600 5300
+F 0 "J1" H 5600 5404 39  0000 C CNN
+F 1 "JUMPER-2" H 5600 5400 39  0001 C CNN
+F 2 "CONNECTOR:CONN-STRIP-2x1-2.54" H 5500 5300 60  0001 C CNN
+F 3 "" H 5600 5400 60  0001 C CNN
+	1    5600 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L nowae-misc:JUMPER-2 J2
+U 1 1 5C8DF10C
+P 5600 5650
+F 0 "J2" H 5600 5754 39  0000 C CNN
+F 1 "JUMPER-2" H 5600 5750 39  0001 C CNN
+F 2 "CONNECTOR:CONN-STRIP-2x1-2.54" H 5500 5650 60  0001 C CNN
+F 3 "" H 5600 5750 60  0001 C CNN
+	1    5600 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 5300 5500 5300
+$Comp
+L power:+3.3V #PWR05
+U 1 1 5C8DF197
+P 5200 5300
+F 0 "#PWR05" H 5200 5225 30  0001 C CNN
+F 1 "+3.3V" V 5200 5403 30  0000 L CNN
+F 2 "" H 5200 5300 60  0000 C CNN
+F 3 "" H 5200 5300 60  0000 C CNN
+	1    5200 5300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5200 5650 5500 5650
+$Comp
+L power:GND #PWR06
+U 1 1 5C8DF94C
+P 5200 5650
+F 0 "#PWR06" H 5200 5650 30  0001 C CNN
+F 1 "GND" H 5200 5650 30  0001 C CNN
+F 2 "" H 5200 5650 60  0000 C CNN
+F 3 "" H 5200 5650 60  0000 C CNN
+	1    5200 5650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5700 5300 6000 5300
+Wire Wire Line
+	5700 5650 6000 5650
+$Comp
+L power:GND1 #PWR08
+U 1 1 5C8E2479
+P 6000 5650
+F 0 "#PWR08" H 6000 5650 30  0001 C CNN
+F 1 "GND1" H 6000 5650 30  0001 C CNN
+F 2 "" H 6000 5650 60  0000 C CNN
+F 3 "" H 6000 5650 60  0000 C CNN
+	1    6000 5650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+VDD #PWR07
+U 1 1 5C8E3AD2
+P 6000 5300
+F 0 "#PWR07" H 6000 5225 30  0001 C CNN
+F 1 "+VDD" V 6000 5402 30  0000 L CNN
+F 2 "" H 6000 5300 60  0000 C CNN
+F 3 "" H 6000 5300 60  0000 C CNN
+	1    6000 5300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3150 3000 3250 3000
+$Comp
+L nowae-capacitor:CAPACITOR C1
+U 1 1 5C9400EE
+P 3250 3300
+F 0 "C1" H 3365 3346 50  0000 L CNN
+F 1 "10u" H 3365 3255 50  0000 L CNN
+F 2 "CAPACITOR:CAPACITOR-1206" H 3288 3150 30  0001 C CNN
+F 3 "" H 3250 3400 60  0001 C CNN
+F 4 "-" H 3250 2950 60  0001 C CNN "Manufacturer"
+F 5 "-" H 3250 2850 60  0001 C CNN "Part Number"
+F 6 "-" H 3250 2750 60  0001 C CNN "Distributor"
+F 7 "-" H 3250 2650 60  0001 C CNN "Distributor Code"
+F 8 "-" H 3250 2550 60  0001 C CNN "Price €"
+F 9 "-" H 3250 2450 60  0001 C CNN "Distributor2"
+F 10 "-" H 3250 2350 60  0001 C CNN "Distributor2 Code"
+F 11 "-" H 3250 2250 60  0001 C CNN "Distributor3"
+F 12 "-" H 3250 2150 60  0001 C CNN "Distributor3 Code"
+	1    3250 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L nowae-capacitor:CAPACITOR C2
+U 1 1 5C940195
+P 3650 3300
+F 0 "C2" H 3765 3346 50  0000 L CNN
+F 1 "100n" H 3765 3255 50  0000 L CNN
+F 2 "CAPACITOR:CAPACITOR-1206" H 3688 3150 30  0001 C CNN
+F 3 "" H 3650 3400 60  0001 C CNN
+F 4 "-" H 3650 2950 60  0001 C CNN "Manufacturer"
+F 5 "-" H 3650 2850 60  0001 C CNN "Part Number"
+F 6 "-" H 3650 2750 60  0001 C CNN "Distributor"
+F 7 "-" H 3650 2650 60  0001 C CNN "Distributor Code"
+F 8 "-" H 3650 2550 60  0001 C CNN "Price €"
+F 9 "-" H 3650 2450 60  0001 C CNN "Distributor2"
+F 10 "-" H 3650 2350 60  0001 C CNN "Distributor2 Code"
+F 11 "-" H 3650 2250 60  0001 C CNN "Distributor3"
+F 12 "-" H 3650 2150 60  0001 C CNN "Distributor3 Code"
+	1    3650 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 3100 3250 3000
+Connection ~ 3250 3000
+Wire Wire Line
+	3650 3100 3650 3000
+Wire Wire Line
+	3250 3000 3650 3000
+Connection ~ 3650 3000
+Wire Wire Line
+	3650 3000 4750 3000
+Wire Wire Line
+	3250 4000 3250 3500
+Wire Wire Line
+	3250 4000 3650 4000
+Wire Wire Line
+	3650 4000 3650 3500
+$Comp
+L power:+VDD #PWR011
+U 1 1 5C948481
+P 3150 3000
+F 0 "#PWR011" H 3150 2925 30  0001 C CNN
+F 1 "+VDD" V 3150 3150 30  0000 C CNN
+F 2 "" H 3150 3000 60  0000 C CNN
+F 3 "" H 3150 3000 60  0000 C CNN
+	1    3150 3000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5500 1000 6100 1000
+Text Label 6100 1000 2    50   ~ 0
+WIFI_RESET
+Wire Wire Line
+	5500 900  5600 900 
+Wire Wire Line
+	5500 800  5600 800 
+Wire Wire Line
+	5600 800  5600 750 
+$Comp
+L power:GND #PWR?
+U 1 1 5C9E602B
+P 5600 900
+F 0 "#PWR?" H 5600 900 30  0001 C CNN
+F 1 "GND" H 5600 900 30  0001 C CNN
+F 2 "" H 5600 900 60  0000 C CNN
+F 3 "" H 5600 900 60  0000 C CNN
+	1    5600 900 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5C9E604E
+P 5600 750
+F 0 "#PWR?" H 5600 675 30  0001 C CNN
+F 1 "+3.3V" H 5600 850 30  0000 C CNN
+F 2 "" H 5600 750 60  0000 C CNN
+F 3 "" H 5600 750 60  0000 C CNN
+	1    5600 750 
+	1    0    0    -1  
+$EndComp
+Text Label 6100 1400 2    50   ~ 0
+WIFI_TX
+Text Label 6100 1300 2    50   ~ 0
+WIFI_RX
+Text Label 6100 1200 2    50   ~ 0
+WIFI_CTS
+Text Label 6100 1100 2    50   ~ 0
+WIFI_RTS
+Wire Wire Line
+	5500 1100 6100 1100
+Wire Wire Line
+	5500 1200 6100 1200
+Wire Wire Line
+	5500 1300 6100 1300
+Wire Wire Line
+	5500 1400 6100 1400
+$Comp
+L nowae-wireless:AMW037 U?
+U 1 1 5CB71DE4
+P 5600 3450
+F 0 "U?" H 5600 3450 60  0000 C CNN
+F 1 "AMW037" H 5600 3350 60  0000 C CNN
+F 2 "WIFI:WIFI-AMW037" H 5600 1900 60  0001 C CNN
+F 3 "https://resources.zentri.com/documentation/datasheets/ADS-MW037-ZentriOS-101R.pdf" H 5600 1800 60  0001 C CNN
+F 4 "Silicon Laboratories" H 5600 1800 60  0001 C CNN "Manufacturer"
+F 5 "AMW037" H 5600 1700 60  0001 C CNN "Part Number"
+F 6 "Mouser Electronics Inc" H 5600 1600 60  0001 C CNN "Distributor"
+F 7 "902-AMW037/S" H 5600 1500 60  0001 C CNN "Distributor Code"
+F 8 "7.430" H 5600 1400 60  0001 C CNN "Price €"
+F 9 "Farnell Italia S.r.l." H 5600 1300 50  0001 C CNN "Distributor2"
+F 10 "2930651" H 5600 1200 50  0001 C CNN "Distributor2 Code"
+	1    5600 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 2350 5150 2200
+Wire Wire Line
+	5150 2200 5250 2200
+Wire Wire Line
+	6450 2900 6550 2900
+Wire Wire Line
+	6550 2900 6550 2200
+Connection ~ 6550 2200
+Wire Wire Line
+	6550 2200 6650 2200
+Wire Wire Line
+	5250 2350 5250 2200
+Connection ~ 5250 2200
+Wire Wire Line
+	5250 2200 5350 2200
+Wire Wire Line
+	5350 2350 5350 2200
+Connection ~ 5350 2200
+Wire Wire Line
+	5350 2200 5450 2200
+Wire Wire Line
+	5450 2350 5450 2200
+Connection ~ 5450 2200
+Wire Wire Line
+	5450 2200 5550 2200
+Wire Wire Line
+	5550 2350 5550 2200
+Connection ~ 5550 2200
+Wire Wire Line
+	5550 2200 5650 2200
+Wire Wire Line
+	5650 2350 5650 2200
+Connection ~ 5650 2200
+Wire Wire Line
+	5650 2200 5750 2200
+Wire Wire Line
+	5750 2350 5750 2200
+Connection ~ 5750 2200
+Wire Wire Line
+	5750 2200 5850 2200
+Wire Wire Line
+	5850 2350 5850 2200
+Connection ~ 5850 2200
+Wire Wire Line
+	5850 2200 5950 2200
+Wire Wire Line
+	5950 2350 5950 2200
+Connection ~ 5950 2200
+Wire Wire Line
+	5950 2200 6050 2200
+Wire Wire Line
+	6050 2350 6050 2200
+Connection ~ 6050 2200
+Wire Wire Line
+	6050 2200 6550 2200
+$Comp
+L power:GND1 #PWR?
+U 1 1 5CB8E071
+P 6650 2200
+F 0 "#PWR?" H 6650 2200 30  0001 C CNN
+F 1 "GND1" H 6650 2200 30  0001 C CNN
+F 2 "" H 6650 2200 60  0000 C CNN
+F 3 "" H 6650 2200 60  0000 C CNN
+	1    6650 2200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6550 2900 6550 4000
+Wire Wire Line
+	6550 4000 6450 4000
+Connection ~ 6550 2900
+Wire Wire Line
+	6450 3400 7100 3400
+Text Label 7100 3400 2    50   ~ 0
+WIFI_RESET
+Wire Wire Line
+	4100 3800 4750 3800
+Text Label 4100 3800 0    50   ~ 0
+WIFI_RX
+Wire Wire Line
+	4750 3900 4100 3900
+Text Label 4100 3900 0    50   ~ 0
+WIFI_TX
+Wire Wire Line
+	6450 3300 7100 3300
+Wire Wire Line
+	6450 3200 7100 3200
+Text Label 7100 3300 2    50   ~ 0
+WIFI_CTS
+Text Label 7100 3200 2    50   ~ 0
+WIFI_RTS
+Wire Wire Line
+	3650 4000 4650 4000
+Connection ~ 3650 4000
+Wire Wire Line
+	4750 2900 4650 2900
+Wire Wire Line
+	4650 2900 4650 4000
+Connection ~ 4650 4000
+Wire Wire Line
+	4650 4000 4750 4000
+Wire Wire Line
+	4650 4000 4650 4100
+$Comp
+L power:GND1 #PWR?
+U 1 1 5CB9E223
+P 4650 4100
+F 0 "#PWR?" H 4650 4100 30  0001 C CNN
+F 1 "GND1" H 4650 4100 30  0001 C CNN
+F 2 "" H 4650 4100 60  0000 C CNN
+F 3 "" H 4650 4100 60  0000 C CNN
+	1    4650 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 3400 4100 3400
+Text Label 4100 3400 0    50   ~ 0
+WIFI_WAKE
+NoConn ~ 6450 3000
+NoConn ~ 6450 3900
+NoConn ~ 5350 4550
+NoConn ~ 5250 4550
+NoConn ~ 5150 4550
+NoConn ~ 4750 3100
+NoConn ~ 4750 3600
+NoConn ~ 4750 3700
+$Comp
+L nowae-connector:CONN_8X1 P?
+U 1 1 5CBA9B72
+P 5250 1150
+F 0 "P?" H 5250 1600 60  0000 C CNN
+F 1 "CONN" H 5250 700 60  0000 C CNN
+F 2 "" H 5625 1150 60  0001 C CNN
+F 3 "" H 5625 1150 60  0001 C CNN
+F 4 "-" H 5250 800 60  0001 C CNN "Manufacturer"
+F 5 "-" H 5250 700 60  0001 C CNN "Part Number"
+F 6 "-" H 5250 600 60  0001 C CNN "Distributor"
+F 7 "-" H 5250 500 60  0001 C CNN "Distributor Code"
+F 8 "-" H 5250 400 60  0001 C CNN "Price €"
+F 9 "-" H 5250 300 60  0001 C CNN "Distributor2"
+F 10 "-" H 5250 200 60  0001 C CNN "Distributor2 Code"
+F 11 "-" H 5250 100 60  0001 C CNN "Distributor3"
+F 12 "-" H 5250 0   60  0001 C CNN "Distributor3 Code"
+	1    5250 1150
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 1500 6100 1500
+Text Label 6100 1500 2    50   ~ 0
+WIFI_WAKE
+$EndSCHEMATC
