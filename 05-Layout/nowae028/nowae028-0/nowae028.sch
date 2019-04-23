@@ -160,8 +160,8 @@ F 3 "" H 3150 3000 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	5500 1000 6100 1000
-Text Label 6100 1000 2    50   ~ 0
+	5500 1500 6100 1500
+Text Label 6100 1500 2    50   ~ 0
 WIFI_RESET
 Wire Wire Line
 	5500 900  5600 900 
@@ -373,7 +373,7 @@ F 12 "-" H 5250 0   60  0001 C CNN "Distributor3 Code"
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	5500 1500 6100 1500
-Text Label 6100 1500 2    50   ~ 0
+	5500 1000 6100 1000
+Text Label 6100 1000 2    50   ~ 0
 WIFI_WAKE
 $EndSCHEMATC
